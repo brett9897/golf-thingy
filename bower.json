@@ -1,0 +1,23 @@
+{
+  "name": "Golf-Thingy",
+  "description": "",
+  "main": "",
+  "authors": [
+    "brett-koenig"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/brett9897/golf-thingy",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/js/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^1.9.2",
+    "bootstrap": "^3.3.6"
+  }
+}

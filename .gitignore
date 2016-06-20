@@ -43,3 +43,6 @@ jspm_packages
 out/*
 dist/*
 views/*.html
+
+#bower
+public/js/bower_components/*
