@@ -8,7 +8,7 @@ var del = require('del');
 gulp.task('build', ['clean'], function () {
     return gulp.src([
             './**/*.js', './**/www',
-            '!./node_modules/**', '!./gulpfile.js', '!./out/**'
+            '!./node_modules/**', '!./gulpfile.js', '!./out/**', '!./public/js/bower_components/**'
         ])
         .pipe(babel())
         .pipe(gulp.dest('dist'));

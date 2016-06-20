@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "./node_modules/.bin/gulp build",
+    "postinstall": "./node_modules/.bin/bower install && ./node_modules/.bin/gulp build",
     "start": "node ./dist/bin/www"
   },
   "dependencies": {
