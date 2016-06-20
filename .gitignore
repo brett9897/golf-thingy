@@ -45,4 +45,4 @@ dist/*
 views/*.html
 
 #bower
-public//bower_components/*
+public/bower_components/*
