@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "./node_modules/.bin/bower install && ./node_modules/.bin/gulp build",
-    "start": "node ./dist/bin/www"
+    "postinstall": "bower install && gulp build",
+    "start": "node dist/bin/www"
   },
   "dependencies": {
     "babel-cli": "^6.10.1",
