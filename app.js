@@ -6,7 +6,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 import routes from './routes/index.js';
-import users from './routes/users';
 
 var app = express();
 const base_path = process.env.NODE_ENV === 'production' ? path.join(__dirname, '../') : path.join(__dirname, '');
@@ -24,8 +23,8 @@ app.use(cookieParser());
 app.use(require('stylus').middleware(path.join(base_path, 'public')));
 app.use(express.static(path.join(base_path, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
+const options = {};
+routes(app, options);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

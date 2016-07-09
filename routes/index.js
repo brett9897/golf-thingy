@@ -1,12 +1,7 @@
-/**
- * Created by Brett on 6/14/2016.
- */
-import express from "express";
-const router = express.Router();
+import home from './home';
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-    res.render('index', { title: 'Home' });
-});
+function index(app, options) {
+    home(app, options);
+}
 
-export default router;
+export default index;
