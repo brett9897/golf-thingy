@@ -1,9 +1,13 @@
 import express from 'express';
-import sampleController from ''
-const router = express.Router();
+import * as controller from '../../controllers/sample'
 
-router
-    .get('/')
-    .post('/')
-    .put('/:sampleId')
-    .delete('/:sampleId');
+export default sample;
+
+function sample(app, options) {
+    const router = express.Router();
+
+    router
+        .get('/', controller.get);
+
+    app.use('/sample', router);
+}
