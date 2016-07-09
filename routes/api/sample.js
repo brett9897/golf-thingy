@@ -1,5 +1,5 @@
 import express from 'express';
-import * as controller from '../../controllers/sample'
+import * as controller from '../../controllers/sample';
 
 export default sample;
 
