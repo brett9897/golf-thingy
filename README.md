@@ -8,3 +8,4 @@ Runs on http://localhost:3000
 
 Download http://postgresapp.com/
 run command in terminal: export DATABASE_URL=postgres:///$(whoami)
+heroku pg:pull DATABASE_URL  daddysgottaeat --app daddysgottaeat
