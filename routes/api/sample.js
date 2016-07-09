@@ -7,7 +7,12 @@ function sample(app, options) {
     const router = express.Router();
 
     router
-        .get('/', controller.get);
+        .get('/', controller.getAll)
+        .get('/:id', controller.get)
+        .put('/:id', controller.update)
+        .post('/', controller.add)
+        .delete('/:id', controller.remove)
+    ;
 
-    app.use('/sample', router);
+    app.use('/api/sample', router);
 }

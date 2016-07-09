@@ -8,7 +8,7 @@ var pg = require('pg');
 
 import routes from './routes/index.js';
 
-var app = express();
+const app = express();
 const base_path = process.env.NODE_ENV === 'production' ? path.join(__dirname, '../') : path.join(__dirname, '');
 
 // view engine setup

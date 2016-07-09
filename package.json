@@ -19,6 +19,7 @@
     "gulp-babel": "^6.1.2",
     "gulp-cli": "^1.2.1",
     "jade": "~1.11.0",
+    "lodash": "^4.13.1",
     "morgan": "~1.6.1",
     "pg": "4.x",
     "serve-favicon": "~2.3.0",
