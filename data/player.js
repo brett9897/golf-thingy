@@ -1,5 +1,5 @@
 import _ from 'lodash';
-var pg = require('pg');
+import pg from 'pg';
 
 export function getAll(callback) {
     var client = new pg.Client(process.env.DATABASE_URL);
