@@ -12,7 +12,7 @@
         $stateProvider
             .state('index', {
                 url: '/',
-                templateUrl: '../../views/index.jade',
+                templateUrl: '/views/index.jade',
                 controller: 'indexController',
                 controllerAs: 'ic'
             })

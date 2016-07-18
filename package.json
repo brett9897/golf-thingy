@@ -25,5 +25,8 @@
     "serve-favicon": "~2.3.0",
     "stylus": "0.42.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-minify": "0.0.12"
+  }
 }

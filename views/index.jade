@@ -1,4 +1,4 @@
 extends layout
-
-block content
-  p Content goes here
+div(ng-controller="indexController")
+  block content
+    p Content goes here {{ ic.printShit }}
