@@ -4,7 +4,6 @@
 var gulp = require('gulp');
 var babel = require('gulp-babel');
 var del = require('del');
-var minify = require('gulp-minify');
 var concat = require('gulp-concat');
 
 var jsFiles = './public/js/app/*.js',
