@@ -1,3 +1,9 @@
 {
-  "presets": ["es2015"]
+  "presets": ["es2015"],
+  "ignore": [
+    "**/angular.min.js",
+    "**/lowdash.js",
+    "**/ui-bootstrap-tpls-1.2.4.min.js",
+    "**/jquery.flot.js"
+  ]
 }
